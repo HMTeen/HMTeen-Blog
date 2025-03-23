@@ -4,10 +4,10 @@ export const navbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '转码笔记', items: [
     {text: "Java", link: '/ToBeABD/Java/'},
-    {text: "数据库", link: '/ToBeABD/Database/'},
+    {text: "数据库 | MySQL", link: '/ToBeABD/Database/MySQL/'},
+    {text: "数据库 | Redis", link: '/ToBeABD/Database/Redis/'},
     {text: "消息队列", link: '/ToBeABD/MQ/'},
-
-
+    
   ]},
   { text: '博客', link: '/blog/' },
   //{ text: '标签', link: '/blog/tags/' },

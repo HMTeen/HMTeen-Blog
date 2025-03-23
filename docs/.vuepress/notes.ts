@@ -6,9 +6,15 @@ const ToBeABD_Java = defineNoteConfig({
   sidebar: 'auto',
 })
 
-const ToBeABD_Database = defineNoteConfig({
-  dir: '1.to-be-a-bd/2.Database/',
-  link: '/ToBeABD/Database/',
+const ToBeABD_DB_MySQL = defineNoteConfig({
+  dir: '1.to-be-a-bd/2.Database/1.MySQL/',
+  link: '/ToBeABD/Database/MySQL/',
+  sidebar: 'auto',
+})
+
+const ToBeABD_DB_Redis = defineNoteConfig({
+  dir: '1.to-be-a-bd/2.Database/2.Redis/',
+  link: '/ToBeABD/Database/Redis/',
   sidebar: 'auto',
 })
 
@@ -39,5 +45,5 @@ const ToBeABD_MQ = defineNoteConfig({
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [ToBeABD_Java, ToBeABD_Database, ToBeABD_MQ],
+  notes: [ToBeABD_Java, ToBeABD_DB_MySQL, ToBeABD_DB_Redis, ToBeABD_MQ],
 })
