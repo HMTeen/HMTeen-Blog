@@ -3,9 +3,22 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export const navbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '转码笔记', items: [
-    {text: "Java", link: '/ToBeABD/Java/'},
-    {text: "数据库 | MySQL", link: '/ToBeABD/Database/MySQL/'},
-    {text: "数据库 | Redis", link: '/ToBeABD/Database/Redis/'},
+    {text: "Java", icon: "devicon:java",items: [
+      {text: "基础", link: '/ToBeABD/Java/'},
+      {text: "微服务", link: '/ToBeABD/Java/Microservices/'},
+    ]},
+
+    {text: "数据库", icon: "tabler-database", items: [
+      {text: "MySQL", link: '/ToBeABD/Database/MySQL/'},
+      {text: "Redis", link: '/ToBeABD/Database/Redis/'},
+    ]},
+
+    {text: "计算机基础", icon: "icon-park book-one", items: [
+      {text: "Linux", link: "/ToBeABD/ComputerFoundation/Linux/"}
+    ]},
+
+
+
     {text: "消息队列", link: '/ToBeABD/MQ/'},
     
   ]},

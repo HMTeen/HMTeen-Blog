@@ -1,5 +1,5 @@
 ---
-title: 2.Database-Redis
+title: Redis
 createTime: 2025/03/22 10:54:32
 permalink: /ToBeABD/Database/Redis/
 ---
