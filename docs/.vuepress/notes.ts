@@ -35,11 +35,22 @@ const ToBeABD_CF_Linux = defineNoteConfig({
 
 
 // 消息队列
-const ToBeABD_MQ = defineNoteConfig({
-  dir: '1.to-be-a-bd/3.Message-Queue/',
-  link: '/ToBeABD/MQ/',
+const ToBeABD_MQ_Kafka = defineNoteConfig({
+  dir: '1.to-be-a-bd/30.消息队列/Kafka/',
+  link: '/ToBeABD/MQ/Kafka/',
   sidebar: 'auto',
 })
+
+
+
+// 开发工具
+// Git
+const Tools_DT_Git = defineNoteConfig({
+  dir: '10.Tools/1.开发工具/1.Git/',
+  link: '/Tools/DT/Git/',
+  sidebar: 'auto',
+})
+
 
 
 export const notes = defineNotesConfig({
@@ -49,5 +60,6 @@ export const notes = defineNotesConfig({
     ToBeABD_Java, ToBeABD_Java_MS, 
     ToBeABD_DB_MySQL, ToBeABD_DB_Redis, 
     ToBeABD_CF_Linux,
-    ToBeABD_MQ],
+    ToBeABD_MQ_Kafka,
+    Tools_DT_Git],
 })
