@@ -183,17 +183,17 @@ systemctl enable redis
 redis-cli [options] [commonds]
 ```
 
-**options：**可选项
+**options**：可选项
 
 - `-h 127.0.0.1`：指定要连接的redis节点的IP地址，默认是127.0.0.1
 - `-p 6379`：指定要连接的redis节点的端口，默认是6379
 - `-a 123321`：指定redis的访问密码 
 
-**commonds：**Redis的操作命令，可选，例如：
+**commonds**：Redis的操作命令，可选，例如：
 
 - `ping`：与redis服务端做心跳测试，服务端正常会返回`pong`
 
-**若不指定commond：**会进入`redis-cli`的交互控制台（类似python），持续进行命令输入-结果返回
+**若不指定commond**：会进入`redis-cli`的交互控制台（类似python），持续进行命令输入-结果返回
 
 ```sh
 [hmteen@localhost ~]$ redis-cli -h 127.0.0.1	# 连接

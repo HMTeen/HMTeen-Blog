@@ -8,4 +8,4 @@ docs/.vuepress/dist
 *.log
 
 docs/notes/image
-docs/notes/*.py
+*.py
