@@ -18,7 +18,8 @@ export const navbar = defineNavbarConfig([
     ]},
 
     {text: "消息队列", icon: "", items: [
-      { text: "Kafka", link: "/ToBeABD/MQ/Kafka/" }
+      { text: "Kafka", link: "/ToBeABD/MQ/Kafka/" },
+      { text: "RabbitMQ", link: "/ToBeABD/MQ/RabbitMQ/" }
     ]},
     
   ]},
@@ -26,6 +27,7 @@ export const navbar = defineNavbarConfig([
   { text: "工具", items: [
     { text: "开发工具", icon: "gg-toolbox",items: [
       { text: "Git", link: "/Tools/DT/Git/" },
+      { text: "Docker", link: "/Tools/DT/Docker/" },
     ] },
   ]},
 
