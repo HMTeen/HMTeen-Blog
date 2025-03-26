@@ -33,6 +33,19 @@ const ToBeABD_CF_Linux = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const ToBeABD_CF_OS = defineNoteConfig({
+  dir: '1.to-be-a-bd/20.计算机基础/2.操作系统/',
+  link: '/ToBeABD/ComputerFoundation/OperatingSystem/',
+  sidebar: 'auto',
+})
+
+
+const ToBeABD_CF_CNet = defineNoteConfig({
+  dir: '1.to-be-a-bd/20.计算机基础/3.计算机网络/',
+  link: '/ToBeABD/ComputerFoundation/ComputerNetwork/',
+  sidebar: 'auto',
+})
+
 
 // 消息队列
 const ToBeABD_MQ_Kafka = defineNoteConfig({
@@ -46,6 +59,15 @@ const ToBeABD_MQ_RabbitMQ = defineNoteConfig({
   link: '/ToBeABD/MQ/RabbitMQ/',
   sidebar: 'auto',
 })
+
+
+// 笔试和面试
+const WTI = defineNoteConfig({
+  dir: '5.written-test-and-interview',
+  link: '/WTI/',
+  sidebar: 'auto',
+})
+
 
 // 开发工具
 // Git
@@ -68,7 +90,8 @@ export const notes = defineNotesConfig({
   notes: [
     ToBeABD_Java, ToBeABD_Java_MS, 
     ToBeABD_DB_MySQL, ToBeABD_DB_Redis, 
-    ToBeABD_CF_Linux,
+    ToBeABD_CF_Linux,ToBeABD_CF_OS,ToBeABD_CF_CNet,
     ToBeABD_MQ_RabbitMQ ,ToBeABD_MQ_Kafka,
+    WTI,
     Tools_DT_Git, Tools_DT_Docker],
 })
