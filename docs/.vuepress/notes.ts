@@ -46,6 +46,12 @@ const ToBeABD_CF_CNet = defineNoteConfig({
   sidebar: 'auto',
 })
 
+const ToBeABD_CF_DataS = defineNoteConfig({
+  dir: '1.to-be-a-bd/20.计算机基础/4.数据结构/',
+  link: '/ToBeABD/ComputerFoundation/DataStructure/',
+  sidebar: 'auto',
+})
+
 
 // 消息队列
 const ToBeABD_MQ_Kafka = defineNoteConfig({
@@ -90,7 +96,7 @@ export const notes = defineNotesConfig({
   notes: [
     ToBeABD_Java, ToBeABD_Java_MS, 
     ToBeABD_DB_MySQL, ToBeABD_DB_Redis, 
-    ToBeABD_CF_Linux,ToBeABD_CF_OS,ToBeABD_CF_CNet,
+    ToBeABD_CF_Linux,ToBeABD_CF_OS,ToBeABD_CF_CNet,ToBeABD_CF_DataS,
     ToBeABD_MQ_RabbitMQ ,ToBeABD_MQ_Kafka,
     WTI,
     Tools_DT_Git, Tools_DT_Docker],

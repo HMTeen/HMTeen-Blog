@@ -16,7 +16,8 @@ export const navbar = defineNavbarConfig([
     {text: "计算机基础", icon: "iconoir-computer", items: [
       {text: "Linux", link: "/ToBeABD/ComputerFoundation/Linux/"},
       {text: "操作系统", link: "/ToBeABD/ComputerFoundation/OperatingSystem/"},
-      {text: "计算机网络", link: "/ToBeABD/ComputerFoundation/ComputerNetwork/"}
+      {text: "计算机网络", link: "/ToBeABD/ComputerFoundation/ComputerNetwork/"},
+      {text: "数据结构", link: "/ToBeABD/ComputerFoundation/DataStructure/"}
     ]},
 
     {text: "消息队列", icon: "", items: [
