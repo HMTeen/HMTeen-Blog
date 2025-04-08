@@ -25,6 +25,10 @@ export const navbar = defineNavbarConfig([
       { text: "RabbitMQ", link: "/ToBeABD/MQ/RabbitMQ/" }
     ]},
     
+    {text: "系统设计", icon: "", items: [
+      { text: "系统设计", link: "/ToBeABD/SyStemDesign/SyStemDesign/" }
+    ]}
+
   ]},
 
   { text: "笔试和面试", link: "/WTI/"},

@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import markdownItLinkAttributes from 'markdown-it-link-attributes'
 
 export default defineUserConfig({
 
@@ -17,6 +18,19 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+
+  // 设置站内链接的跳转方式为【在新建标签页打开】
+  //extendsMarkdown: (md) => {
+  //  md.use(markdownItLinkAttributes, [
+  //    {
+  //      pattern: /^(\/(?!\/|#)|\.\.\/|\/[a-zA-Z0-9\-_\./]+(?<!#))/, // 匹配站内链接
+  //      attrs: {
+  //        target: '_blank',
+  //        rel: 'noopener noreferrer'
+  //      }
+  //    }
+  //  ])
+  //},
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */

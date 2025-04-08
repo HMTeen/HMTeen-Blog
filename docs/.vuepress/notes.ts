@@ -67,6 +67,14 @@ const ToBeABD_MQ_RabbitMQ = defineNoteConfig({
 })
 
 
+// 系统设计
+const ToBeABD_SystemDesign_SD = defineNoteConfig({
+  dir: '1.to-be-a-bd/40.系统设计/1.系统设计/',
+  link: '/ToBeABD/SyStemDesign/SyStemDesign/',
+  sidebar: 'auto',
+})
+
+
 // 笔试和面试
 const WTI = defineNoteConfig({
   dir: '5.written-test-and-interview',
@@ -98,6 +106,7 @@ export const notes = defineNotesConfig({
     ToBeABD_DB_MySQL, ToBeABD_DB_Redis, 
     ToBeABD_CF_Linux,ToBeABD_CF_OS,ToBeABD_CF_CNet,ToBeABD_CF_DataS,
     ToBeABD_MQ_RabbitMQ ,ToBeABD_MQ_Kafka,
+    ToBeABD_SystemDesign_SD,
     WTI,
     Tools_DT_Git, Tools_DT_Docker],
 })
