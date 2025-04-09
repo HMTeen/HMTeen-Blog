@@ -1,0 +1,25 @@
+:root {
+  .vp-doc h2 {
+    padding-top: 24px;
+    margin:48px 0 16px;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    border-top: 1px solid var(--vp-c-divider);
+    transition: border-top var(--vp-t-color), color var(--vp-t-color);
+  }
+
+  .vp-doc h3 {
+    margin:32px 0 16px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  .vp-doc h4 {
+    margin:24px 0 16px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    }
+}

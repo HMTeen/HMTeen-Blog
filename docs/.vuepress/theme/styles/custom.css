@@ -1,10 +1,4 @@
 :root {
-
-  h1 {
-    margin-top: 400px;  
-    margin-bottom: 20px;
-  }
-
   /** 主题颜色 */
 
   /*
@@ -31,6 +25,8 @@
   --vp-c-text-3: rgba(60, 60, 67, 0.56);
   */
 }
+
+
 
 /** 深色模式 */
 [data-theme="dark"] {
