@@ -22,4 +22,9 @@
     line-height: 24px;
     letter-spacing: -0.01em;
     }
+
+  .vp-doc ul, .vp-doc ol {
+    padding-left: 2.25rem;
+    margin:16px 0;
+  }
 }
